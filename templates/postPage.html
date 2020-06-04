@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask app</title>
+        <link rel="stylesheet" type="text/css" href="..\static\css\main.css">
+    </head>
+    <body>
+        <header>
+            <h2>Here's what you've entered</h2>
+        </header>
+        {%for word in result %}
+            {{word}}
+        {% endfor %}
+        <br>
+        <button href="index.html">Back</button>
+    </body>
+</html>

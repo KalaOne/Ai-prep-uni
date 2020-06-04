@@ -1,0 +1,19 @@
+body {
+    background-color: #5aa9e6;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.chat {
+    text-align: center;
+    display: inline-block;
+}
+
+form {
+    margin: 0 auto;
+    background-color: #17c3b2;
+    align-items: center;
+}
