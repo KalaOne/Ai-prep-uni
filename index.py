@@ -48,9 +48,11 @@ if __name__ == '__main__':
 # POST request is when html is sending to backend
 # GET request is when backend is sending to html
 
+# 1) Implement a full chat window with your chatbot
+# So you can type multiple things to it and all the responses come back on the web page
 
-# 2) Build a user interface in Python/Flask to accept input from the user and get the response back from the NLP processing you did in Assignment. Refactor if necessary.
+# 2) Make it so you don't need to look in the python console to know what it's up to - 
+#   so if it has problems with the text provided, it displays a nice message in your new UI
 
-# 3) Expand on the capability of your NLP. I want to be able to type a sentence like “I was born in Mansfield and now I live in Norwich” and your code should try and recognise which is the city I was born in and which I now live in.
-
-# The actual sentence itself will vary, so try and come up with some ways of figuring out what is what in a sentence with two cities in.
+# 3) make it a bit more conversational
+# So if you type "hello" it will respond
